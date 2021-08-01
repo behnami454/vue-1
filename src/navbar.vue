@@ -1,0 +1,48 @@
+<template>
+  <div>
+      <div class="parentDiv">
+  <div class="nav">
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Subjects</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+</div>
+  </div>
+</template>
+
+<script>
+export default {
+    data() {
+        return {
+            name: 'navbar'
+        };
+    },
+
+}
+</script>
+
+<style>
+body {
+  margin:0;
+  padding:0;
+}
+
+.parentDiv {
+  position: absolute;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.nav {
+  text-align: center;
+}
+
+ul li{
+  display: inline-block;
+  padding: 0 5px;
+}
+</style>

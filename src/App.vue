@@ -1,15 +1,50 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <navbar />,
+    <br>
+    <card />,
+    <message />
+    <clock />
+    <refresh />
+    <close />
+    <open />
+    <footar />
+
+    
+   
+    
+    
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+
+import navbar from './navbar.vue'
+import footar from './footar.vue'
+import close from './close.vue'
+import card from './card.vue'
+import message from './message.vue'
+import clock from './clock.vue'
+import refresh from './refresh.vue'
+import open from './open.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    navbar,
+    footar,
+    card,
+    message,
+    clock,
+    refresh,
+    open,
+    close
+    
+   
+    
+    
+    
   }
 }
 </script>
@@ -21,6 +56,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 10px;
 }
 </style>
